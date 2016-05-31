@@ -32,9 +32,7 @@ Spree.ready ($) ->
 
       switch info.site
         when 'twitter'
-          via_str = ''
-          via_str = "&via=#{via}" if via.length > 0
-          openUrl("https://twitter.com/intent/tweet?url=#{info.url}&text=#{info.title}#{info.via_str}", info.popup)
+          openUrl("https://twitter.com/intent/tweet?url=#{info.url}&text=#{info.title}#{info.via}", info.popup)
         when 'facebook'
           openUrl("http://www.facebook.com/sharer.php?u=#{info.url}", info.popup)
       false
