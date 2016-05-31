@@ -1,0 +1,14 @@
+---
+en:
+  spree:
+    environment: Environment
+    back_to_social_methods_list: Back To Social Methods List
+    edit_social_method: Editing Social Method
+    new_social_method: New Social Method
+    no_social_methods_found: No Social Methods Found'
+    remove_social_option_confirmation: Are you sure you would like to remove this social method?
+    social_api_key: API Key
+    social_api_secret: API Secret
+    social_methods: Social Methods
+    social_methods_description: Setup Social Methods
+    social_provider: Social Provider

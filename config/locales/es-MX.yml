@@ -1,0 +1,14 @@
+---
+es-MX:
+  spree:
+    environment: Ambiente
+    back_to_social_methods_list: Regresa a la lista de Cuenta Social
+    edit_social_method: Editando Cuenta Social
+    new_social_method: Nueva Cuenta Social
+    no_social_methods_found: No se encontro ninguna cuenta social
+    remove_social_option_confirmation: Realmete dese eliminar esta cuenta social?
+    social_api_key: API Key
+    social_api_secret: API Secret
+    social_methods: Cuentas Sociales
+    social_methods_description: Configurar Cuentas Sociales
+    social_provider: Proveedor Cuenta
