@@ -10,7 +10,7 @@ Spree::BaseHelper.module_eval do
     data_attributes.store('via', opts[:via]) if opts[:via]
 
     content_tag(:div, class: 'social-share-button', data: data_attributes) do |div|
-      link_to('', '#', class: "social-share-button-#{type}", rel: ['nofollow', opts[:rel]])
+      link_to(opts[:text] || '', '#', class: "social-share-button-#{type} #{opts[:inner_class]}", rel: ['nofollow', opts[:rel]])
     end
   end
 end
