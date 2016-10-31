@@ -1,0 +1,9 @@
+<% content_for :page_title do %>
+  <%= Spree.t(:new_social_method) %>
+<% end %>
+
+<% content_for :page_actions do %>
+  <%= button_link_to Spree.t(:back_to_social_methods_list), admin_social_methods_path, icon: 'arrow-left', class: 'btn-primary' %>
+<% end %>
+
+<%= render 'form', resource: @social_method %>
