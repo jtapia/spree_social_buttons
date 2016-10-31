@@ -5,7 +5,6 @@ Spree.ready ($) ->
       share $(this)
 
     openUrl = (url, popup) ->
-      console.log popup
       if popup == 'true'
         window.open(url, 'popup', 'height=500, width=500')
       else
